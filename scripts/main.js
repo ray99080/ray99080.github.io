@@ -1,14 +1,19 @@
 // JavaScript source code
-/*document.querySelector('html').onclick = function () {
-    alert('Ouch! Stop poking me!');
-}*/
 var myImage = document.querySelector('img');
-var myButton = document.querySelector('button');
+var btna = document.querySelector('.btnA');
+var btnb = document.querySelector('.btnB');
 var myHeading = document.querySelector('h1');
-
-myButton.onclick = function () {
-    getcloth();
-}
-function getcloth() {
-    alert("ghdfgh");
-}
+btna.addEventListener(
+    "click",
+    function () {
+        alert("1");
+    },
+    false
+);
+btnb.addEventListener(
+    "click",
+    function () {
+        alert("2");
+    },
+    false
+);
